@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "francisco@mail.com",
+      "password": "45",
+      "name": "francisco",
+      "age": 38,
+      "id": 2
+    },
+    {
+      "email": "fernando@mail.com",
+      "password": "32",
+      "name": "fernando",
+      "age": 38,
+      "id": 3
+    },
+    {
+      "email": "fabin@mail.com",
+      "password": "321123",
+      "name": "fabin",
+      "age": 38,
+      "id": 4
+    },
+    {
+      "email": "ivan@mail.com",
+      "password": "45",
+      "name": "ivan",
+      "age": 38,
+      "id": 5
+    },
+    {
+      "email": "ivangilhom@mail.com",
+      "password": "$2a$10$9UaL/4ENcwDfAU6qr.rVf.X5lcoPRouHzsqkVEZYV4Gx.W8m7JSIu",
+      "name": "ivan",
+      "age": 38,
+      "id": 6
+    },
+    {
+      "email": "marcelo@mail.com",
+      "password": "$2a$10$I4dNmZfH/k39xZmGBXlta.7XCbdkHlSlgdjLh7J5G1w7sX1/XOqNK",
+      "name": "marcelo",
+      "age": 30,
+      "id": 7
+    }
+  ],
+  "games": [
+    {
+      "name": "black",
+      "categoria": "tiro - 1° pessoa",
+      "idade": "+18"
+    },
+    {
+      "name": "pes 2008",
+      "categoria": "futebol - 3° pessoa",
+      "idade": "+10"
+    },
+    {
+      "name": "shadow of the colossus",
+      "categoria": "aventura - 1° pessoa",
+      "idade": "+16"
+    },
+    {
+      "name": "warcraft III",
+      "categoria": "rpg - 3° pessoa",
+      "idade": "+14"
+    }
+  ],
+  "forum": [
+    {
+      "debate": "canudos de papel",
+      "descrição": "pesquisa pro meu TCC, oque vocês acham dos canudos de papel e como estão sendo utilizados hoje?",
+      "comentarios": [
+        {
+          "titular": "francisco",
+          "exposicao": "acho muito util, porém a duração de vida dentro dos milk shakes acaba muito rapido, tanto que não consigo terminar de beber um todo por o canudo já se derfazer no meio tempo"
+        },
+        {
+          "titular": "fernando",
+          "exposicao": "salva tartarugas, francisco é chato"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "debate": "PC gamer",
+      "descrição": "me indiquem lojas para comprar pc gamer, é pro meu sobrinho que joga lol",
+      "comentarios": [
+        {
+          "titular": "francisco",
+          "exposicao": "pede pra ele parar de jogar, é mais barato"
+        },
+        {
+          "titular": "fernando",
+          "exposicao": "francisco é chato"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "debate": "qualquer",
+      "descrição": "descriçao qualquer?",
+      "comentarios": [],
+      "id": 3
+    }
+  ]
+}
