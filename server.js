@@ -10,7 +10,7 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   users: 644,
-  produtos: 440,
+  produtos: 444,
   carrinho: 600,
 });
 

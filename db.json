@@ -6,74 +6,181 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "bren@email.com",
+      "password": "$2a$10$tVxYDFbXldxQBhlVO//PuON7jswMceHdqonJ554eU8vXRl6Pw1kI6",
+      "name": "breno s.",
+      "age": 28,
+      "id": 2
+    },
+    {
+      "email": "vitor@mail.com",
+      "password": "$2a$10$Tx6Cuscs2ND6P/6ERc93LO1klvjO/9XdrRRH1S08Y/SLi4y/llJJ.",
+      "name": "vito",
+      "id": 3
+    },
+    {
+      "email": "marcos@mail.com",
+      "password": "$2a$10$KKtaOss8rU/XBY/GXx4EZeZVmJOmu5qbdsBlO/U/ZMnheqVroAxa6",
+      "name": "marcos",
+      "id": 4
     }
   ],
   "produtos": [
     {
       "titulo": "Hamburguer",
       "categoria": "Sanduiches",
-      "imagem": "",
-      "preco": 14.0,
+      "imagem": "https://i.ibb.co/fpVHnZL/hamburguer.png",
+      "preco": 14,
       "id": 1
     },
     {
       "titulo": "X-Burguer",
       "categoria": "Sanduiches",
-      "imagem": "",
+      "imagem": "https://i.ibb.co/djbw6LV/x-burgue.png",
       "preco": 16,
       "id": 2
     },
     {
       "titulo": "Big Kenzie",
       "categoria": "Sanduiches",
-      "imagem": "",
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
       "preco": 18,
       "id": 3
     },
     {
       "titulo": "Combo Kenzie",
       "categoria": "Combo",
-      "imagem": "",
+      "imagem": "https://e7.pngegg.com/pngimages/602/53/png-clipart-hamburger-french-fries-fizzy-drinks-chicken-sandwich-veggie-burger-fried-chicken.png",
       "preco": 26,
       "id": 4
     },
     {
       "titulo": "Fanta Guaraná",
       "categoria": "Bebidas",
-      "imagem": "",
+      "imagem": "https://i.ibb.co/cCjqmPM/fanta-guarana.png",
       "preco": 5,
       "id": 5
     },
     {
       "titulo": "Coca Cola",
       "categoria": "Bebidas",
-      "imagem": "",
+      "imagem": "https://i.ibb.co/fxCGP7k/coca-cola.png",
       "preco": 7,
       "id": 6
     },
     {
       "titulo": "McShake Ovomaltine",
       "categoria": "Sobremesas",
-      "imagem": "",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKbOzM5UaTQRbmIfJXwwKEbx6sbmG2aB_zxQ&usqp=CAU",
       "preco": 10,
       "id": 7
     },
     {
       "titulo": "McShake Ovomaltine",
       "categoria": "Sobremesas",
-      "imagem": "",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ooGqzvo-ftQYmxxxWiwEzQPCNJc8KLGuiw&usqp=CAU",
       "preco": 10,
       "id": 8
     }
   ],
   "carrinho": [
     {
-      "titulo": "McShake Ovomaltine",
-      "categoria": "Sobremesas",
-      "imagem": "",
-      "preco": 10,
-      "id": 1,
-      "userId": 1
+      "titulo": "Coca Cola",
+      "categoria": "Bebidas",
+      "imagem": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "preco": 7,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "titulo": "Coca Cola - diaute",
+      "categoria": "Bebidas",
+      "imagem": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "preco": 7,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "titulo": "Coca Cola",
+      "categoria": "Bebidas",
+      "preco": 7,
+      "imagem": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "Combo Kenzie",
+      "categoria": "Combo",
+      "preco": 26,
+      "imagem": "https://e7.pngegg.com/pngimages/602/53/png-clipart-hamburger-french-fries-fizzy-drinks-chicken-sandwich-veggie-burger-fried-chicken.png",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Coca Cola",
+      "categoria": "Bebidas",
+      "preco": 7,
+      "imagem": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "userId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "Big Kenzie",
+      "categoria": "Sanduiches",
+      "preco": 18,
+      "imagem": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 1,
+      "id": 20
     }
   ]
 }
